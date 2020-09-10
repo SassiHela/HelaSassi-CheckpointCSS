@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>My Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="logo">Portfolio</h1>
+
+      <ul>
+        <a href="#home"><li>Home</li></a>
+        <a href="#about"><li>About</li></a>
+        <a href="#resume"><li>Resume</li></a>
+        <a href="#projects"><li>Projects</li></a>
+        <a href="#contact"><li>Contact</li></a>
+      </ul>
+    </header>
+
+    <main>
+      <!--Home section-->
+      <section id="home">
+        <h1>HEY, I'M HELA SASSI</h1>
+        <h3>FULL STACK DEVELOPER</h3>
+      </section>
+      <br />
+      <!-- About section-->
+      <section id="about">
+        <h1><b>ABOUT ME</b></h1>
+        <p>
+          I present myself as <b> web developer </b> who masters
+          HTML/CSS/JavaScript.
+        </p>
+        <p>
+          Do not hesitate to contact me if you want some help in learning these
+          technologies.
+        </p>
+      </section>
+
+      <!--Resume section-->
+      <section id="resume">
+        <h1><b>RESUME</b></h1>
+        <h3>Education</h3>
+        <ul>
+          <li>
+            Master of information systems security 2015 - 2017 at the Higher
+            Institute of Management of Tunis
+          </li>
+          <li>
+            Bachelor of Computer Science 2012 - 2015 at the Higher Institute of
+            Management of Tunis
+          </li>
+        </ul>
+
+        <h3>Experience</h3>
+        <ul>
+          <li>
+            IT consultant 2017 - 2019: evaluate a company's IT systems to help
+            them meet their business objectives.
+          </li>
+        </ul>
+      </section>
+
+      <!--Projects section-->
+      <section id="projects">
+        <h1><b>PROJECTS</b></h1>
+        <div class="card">
+          <iframe
+            width="640"
+            height="315"
+            src="https://www.youtube.com/embed/uQRbmfcpoLI"
+          ></iframe>
+          <h3>Wix.com</h3>
+          <p>
+            Wix is an online platform that allows you to create websites in
+            HTML5 and their mobile version.
+          </p>
+        </div>
+
+        <div class="card">
+          <img
+            src="./images/imgSalleSport.PNG"
+            alt="salle de sport"
+            width="640"
+            height="319"
+          />
+          <h3>galaxygym.tn</h3>
+          <p>
+            This gym has a unique website design which reeks of the color
+            yellow.
+          </p>
+        </div>
+      </section>
+
+      <!--Contact Section-->
+      <section id="contact">
+        <h1><b>CONTACT</b></h1>
+        <form>
+          <input type="text" name="first name" placeholder="Name" />
+          <br />
+
+          <input type="text" name="email" placeholder="Email" />
+          <br />
+
+          <textarea name="message" placeholder="Message"></textarea>
+          <br />
+
+          <input type="submit" value="Submit" class="submit" />
+        </form>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>&copy; <i> Created by Hela Sassi 2020 </i> &copy;</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+/*aligner les li du header */
+header li {
+  display: inline;
+}
+/*Logo et nav sur la meme ligne*/
+#logo,
+#logo + ul {
+  display: inline;
+}
+#logo {
+  color: #801589;
+  margin-right: 69%; /*espace entre le nav et le logo*/
+}
+/*Descendant Combinator
+centrer tous les h1 sauf logo,  h3  qui se trouve dans la section home, le formulaire et le pied du page*/
+#home h3,
+main h1,
+form,
+footer {
+  text-align: center;
+}
+/*Ajuster seulement la taille du h1 dans Home*/
+#home h1 {
+  font-size: 40px;
+}
+p,
+h1,
+h3 {
+  font-family: roboto;
+}
+/*les deux projets sur la meme ligne*/
+.card {
+  display: inline-block;
+  border: 1px solid #801589;
+}
+input,
+textarea {
+  margin-bottom: 10px;
+  font-size: 11pt;
+  padding: 15px 10px 10px;
+  border: 1px solid #cecece;
+  background-color: #efefef;
+  color: #787575;
+  border-radius: 5px;
+  width: 50%;
+}
+textarea {
+  height: 100px;
+}
+.submit {
+  background-color: grey;
+  color: #ffffff;
+  padding: 12px 45px;
+}
